@@ -14,3 +14,10 @@
     border: none;
 }
 
+h1 {
+    font-family: 'Neonderthaw', 'Brush Script MT', cursive;
+    color: #af6331;
+    font-size: 300%;
+    margin-left: 3%;
+}
+
