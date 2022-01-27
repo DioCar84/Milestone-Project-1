@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Open+Sans+Condensed:wght@300;700&display=swap');
+
+/*
+
+    font-family: 'Neonderthaw', 'Brush Script MT', cursive;
+
+    font-family: 'Open Sans Condensed', 'Verdana', sans-serif;
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
