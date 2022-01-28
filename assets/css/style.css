@@ -92,13 +92,24 @@ ul li a {
 }
 
 h3 {
-    font-size: 250%;
-    margin: 30px 0;
+    font-size: 300%;
+    margin: 50px 0;
+    color: #af6331;
 }
 
 .impact-row {
     height: 700px;
     display: inline-block;
+}
+
+.impact-left {
+    float: left;
+    width: 50%;
+}
+
+.impact-right {
+    float: right;
+    width: 50%;
 }
 
 .impact-img {
@@ -108,3 +119,26 @@ h3 {
     padding: 50px;
 }
 
+.impact-text {
+    font-size: 150%;
+    height: 200px;
+    width: 30%;
+    color: rgb(255,232,209);
+    background-color: #af6331;
+    border-radius: 5%;
+    padding: 10px;
+    margin: 0 auto;
+    line-height: 40px;
+}
+
+#top-left-text {
+    padding-top: 20px;
+}
+
+#bottom-left-text {
+    padding-top: 38px;
+}
+
+#bottom-right-text {
+    padding-top: 15px;
+}
