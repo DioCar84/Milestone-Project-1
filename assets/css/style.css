@@ -7,7 +7,8 @@
 }
 
 body {
-    font-family: 'Open Sans Condensed', 'Verdana', sans-serif
+    font-family: 'Open Sans Condensed', 'Verdana', sans-serif;
+    background-color: rgba(230, 220, 124, 0.5);
 }
 
 /* heading and logo */
@@ -49,6 +50,7 @@ ul li a {
     height: 700px;
     width: 100%;
     margin-top: 10px;
+    background-color: white;
 }
 
 #hero-image {
