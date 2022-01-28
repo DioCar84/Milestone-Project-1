@@ -6,9 +6,17 @@
     border: none;
 }
 
+/* color palette
+#af6331
+#eb9762
+#ffe8d1
+#00c9ab
+
+*/
+
 body {
     font-family: 'Open Sans Condensed', 'Verdana', sans-serif;
-    background-color: rgba(255,232,209, 1);
+    background-color: rgb(255,232,209);
 }
 
 /* heading and logo */
@@ -76,3 +84,27 @@ ul li a {
 #intro-inner h2 {
     padding-bottom: 50px;
 }
+
+/* impact section */
+
+#impact {
+    text-align: center;
+}
+
+h3 {
+    font-size: 250%;
+    margin: 30px 0;
+}
+
+.impact-row {
+    height: 700px;
+    display: inline-block;
+}
+
+.impact-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding: 50px;
+}
+
