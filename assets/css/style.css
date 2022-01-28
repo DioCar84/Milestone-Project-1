@@ -43,3 +43,34 @@ ul li a {
     text-decoration: none;
     color: #af6331;
 }
+
+/* hero image and intro */
+#intro-outer {
+    height: 700px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#hero-image {
+    background: url('/assets/images/pexels-klaus-nielsen-6287295.jpg') no-repeat center center;
+    height: 700px;
+    width: 50%;
+    background-size: cover;
+    display: inline-block;
+}
+
+#intro-inner {
+    height: 700px;
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    bottom: 40%;
+    font-size: 200%;
+    padding-left: 13%;
+    color: #785A46;
+}
+
+#intro-inner h2 {
+    padding-bottom: 50px;
+}
