@@ -70,7 +70,6 @@ ul li a {
 }
 
 #intro-inner {
-    height: 700px;
     width: 25%;
     display: inline-block;
     text-align: center;
@@ -156,4 +155,24 @@ h3 {
     height: 800px;
     width: 100%;
     background-color: white;
+}
+
+#reasons-list {
+    width: 33%;
+    padding: 100px 50px 0;
+}
+
+#reasons-list-heading {
+    text-align: center;
+    color: #785A46;
+    width: 70%;
+    position: relative;
+    left: 10%;
+}
+
+#reasons-list-items {
+    font-size: 200%;
+    line-height: 4rem;
+    position: relative;
+    left: 50px;
 }
