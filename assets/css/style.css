@@ -176,3 +176,15 @@ h3 {
     position: relative;
     left: 50px;
 }
+
+#find-out-link {
+
+}
+
+#find-out-button {
+    text-align: center;
+    font-size: 150%;
+    color: #785A46;
+    background-color: white;
+    border: 1px solid #785A46;
+}
