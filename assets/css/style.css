@@ -178,7 +178,8 @@ h3 {
 }
 
 #find-out-link {
-
+    margin: 3% 0 0 9%;
+    position: absolute;
 }
 
 #find-out-button {
@@ -186,5 +187,14 @@ h3 {
     font-size: 150%;
     color: #785A46;
     background-color: white;
-    border: 1px solid #785A46;
+    border: 3px solid #785A46;
+    border-radius: 5%;
+    padding: 5%;
+    width: 150%;
+
+}
+
+#find-out-button:hover {
+    background-color: #785A46;
+    color: white;
 }
