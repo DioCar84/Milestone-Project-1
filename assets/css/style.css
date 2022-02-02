@@ -198,3 +198,12 @@ h3 {
     background-color: #785A46;
     color: white;
 }
+
+#gallery {
+    width: 50%;
+    float: right;
+}
+
+#gallery img {
+    width: 25%
+}
