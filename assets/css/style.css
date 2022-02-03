@@ -208,3 +208,23 @@ h3 {
     background-size: cover;
     background-position: center;
 }
+
+/* footer */
+
+footer {
+    height: 75px;
+    text-align: center;
+    font-size: 200%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #af6331;
+    position: relative;
+    top: 25%;
+    margin: 4%;
+}
+
+footer a:hover {
+    color: #785A46;
+}
