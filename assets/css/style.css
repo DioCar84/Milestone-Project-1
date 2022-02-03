@@ -160,6 +160,7 @@ h3 {
 #reasons-list {
     width: 33%;
     padding: 100px 50px 0;
+    display: inline-block;
 }
 
 #reasons-list-heading {
@@ -199,11 +200,11 @@ h3 {
     color: white;
 }
 
-#gallery {
+#baking-image {
     width: 50%;
+    height: 800px;
     float: right;
-}
-
-#gallery img {
-    width: 25%
+    background: url(../images/annie-spratt-UyEmagArOLY-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center;
 }
