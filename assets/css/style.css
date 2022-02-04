@@ -228,3 +228,35 @@ footer a {
 footer a:hover {
     color: #785A46;
 }
+
+/* courses section */
+
+#courses-section {
+    background-color: white;
+}
+
+#apprentice {
+    height: 700px;
+}
+
+.course-features {
+    width: 50%;
+    float: left;
+    margin-top: 10%;
+}
+
+.course-features li {
+    display: block;
+    width: 100%;
+    position: relative;
+    left: 25%;
+}
+
+#course-img-1 {
+    width: 50%;
+    height: 700px;
+    float: right;
+    background: url('../images/pexels-elina-fairytale-3807314.jpg') no-repeat center center;
+    background-size: cover;
+}
+
