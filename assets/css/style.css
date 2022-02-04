@@ -231,8 +231,24 @@ footer a:hover {
 
 /* courses section */
 
+#courses-header {
+    text-align: center;
+    background: white;
+    font-size: 250%;
+    padding: 3%;
+    color: #785A46;
+}
+
 #courses-section {
     background-color: white;
+}
+
+#courses-section h3 {
+    text-align: center;
+    background-color: rgb(255,232,209);
+    margin: 0;
+    padding: 1%;
+    width: 100%;
 }
 
 #apprentice {
@@ -257,6 +273,22 @@ footer a:hover {
     height: 700px;
     float: right;
     background: url('../images/pexels-elina-fairytale-3807314.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#course-img-2 {
+    width: 50%;
+    height: 700px;
+    float: left;
+    background: url('../images/pexels-elina-fairytale-3807315.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#course-img-3 {
+    width: 50%;
+    height: 700px;
+    float: right;
+    background: url('../images/sister-gf0ac09b02_1920.jpg') no-repeat center center;
     background-size: cover;
 }
 
