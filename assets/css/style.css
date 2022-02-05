@@ -237,8 +237,9 @@ footer a:hover {
 
 #contact-link {
     text-align: center;
-    color: #785A46
+    color: #785A46;
     font-size: 120%;
+    padding-bottom: 2%;
 }
 
 #contact-link a {
@@ -260,7 +261,7 @@ footer a:hover {
 .courses-menu-links {
     text-align: center;
     font-size: 200%;
-    padding: 2%;
+    padding: 2.5%;
 }
 
 .courses-menu-links-tags {
