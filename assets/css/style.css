@@ -6,14 +6,6 @@
     border: none;
 }
 
-/* color palette
-#af6331
-#eb9762
-#ffe8d1
-#00c9ab
-
-*/
-
 body {
     font-family: 'Open Sans Condensed', 'Verdana', sans-serif;
     background-color: rgb(255,232,209);
@@ -37,18 +29,18 @@ nav {
     float: right;
 }
 
-ul {
+.no-style-list {
     list-style: none;
 }
 
-ul li {
+.nav-link {
     float: left;
     margin: 15px;
     font-size: 180%;
     padding-right: 35px;
 }
 
-ul li a {
+.nav-link-tags {
     text-decoration: none;
     color: #af6331;
 }
