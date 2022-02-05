@@ -231,7 +231,17 @@ footer a:hover {
     text-align: center;
     background: white;
     font-size: 250%;
-    padding: 3%;
+    padding: 3% 3% 0;
+    color: #785A46;
+}
+
+#contact-link {
+    text-align: center;
+    color: #785A46
+    font-size: 120%;
+}
+
+#contact-link a {
     color: #785A46;
 }
 
@@ -243,12 +253,28 @@ footer a:hover {
     text-align: center;
     background-color: rgb(255,232,209);
     margin: 0;
-    padding: 1%;
+    padding: 1% 0;
     width: 100%;
 }
 
-#apprentice {
-    height: 700px;
+.courses-menu-links {
+    text-align: center;
+    font-size: 200%;
+    padding: 2%;
+}
+
+.courses-menu-links-tags {
+    text-decoration: none;
+    color: #785A46;
+}
+
+.courses-menu-links-tags:hover {
+    text-decoration: underline;
+}
+
+.course-elements {
+    height: 900px;
+    overflow: hidden;
 }
 
 .course-features {
@@ -257,32 +283,38 @@ footer a:hover {
     margin-top: 10%;
 }
 
-.course-features li {
-    display: block;
-    width: 100%;
+.course-features-list {
     position: relative;
-    left: 25%;
+    bottom: 7rem;
+}
+
+.course-features-items {
+    position: relative;
+    left: 12%;
+    margin: 8%;
+    font-size: 250%;
+    padding: 3% 0;
 }
 
 #course-img-1 {
     width: 50%;
-    height: 700px;
+    height: 800px;
     float: right;
-    background: url('../images/pexels-elina-fairytale-3807314.jpg') no-repeat center center;
+    background: url('../images/pexels-elina-fairytale-3807315.jpg') no-repeat center center;
     background-size: cover;
 }
 
 #course-img-2 {
     width: 50%;
-    height: 700px;
+    height: 800px;
     float: left;
-    background: url('../images/pexels-elina-fairytale-3807315.jpg') no-repeat center center;
+    background: url('../images/pexels-elina-fairytale-3807314.jpg') no-repeat center center;
     background-size: cover;
 }
 
 #course-img-3 {
     width: 50%;
-    height: 700px;
+    height: 800px;
     float: right;
     background: url('../images/sister-gf0ac09b02_1920.jpg') no-repeat center center;
     background-size: cover;
