@@ -230,6 +230,10 @@ footer a:hover {
 }
 
 /* courses section */
+#courses-menu {
+    background-color: white;
+    height: 700px;
+}
 
 #courses-header {
     text-align: center;
