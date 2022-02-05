@@ -46,6 +46,7 @@ nav {
 }
 
 /* hero image and intro */
+
 #intro-outer {
     height: 800px;
     width: 100%;
@@ -221,7 +222,8 @@ footer a:hover {
     color: #785A46;
 }
 
-/* courses section */
+/* courses page */
+
 #courses-menu {
     background-color: white;
     height: 700px;
@@ -319,5 +321,32 @@ footer a:hover {
     float: right;
     background: url('../images/sister-gf0ac09b02_1920.jpg') no-repeat center center;
     background-size: cover;
+}
+
+/* contacts page */
+
+#contact-form {
+    height: 900px;
+    background-color: white;
+}
+
+#contact-form-elements {
+    float: left;
+    width: 50%;
+    padding: 3%;
+}
+
+.form-element-block {
+    display: block;
+    padding: 1%;
+}
+
+#form-img {
+    background: url("../images/pexels-kasia-palitava-10391653.jpg") no-repeat center center;
+    background-size: cover;
+    height: 900px;
+    width: 50%;
+    position: relative;
+    left: 50%;
 }
 
