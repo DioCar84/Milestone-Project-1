@@ -333,12 +333,55 @@ footer a:hover {
 #contact-form-elements {
     float: left;
     width: 50%;
-    padding: 3%;
+    padding: 1% 5%;
+    color: #785A46;
+}
+
+#contact-form-structure {
+    position: relative;
+    left: 20%;
+    font-size: 160%;
 }
 
 .form-element-block {
     display: block;
-    padding: 1%;
+    padding: 1% 0;
+}
+
+.input-text-element {
+    border: 1px solid #785A46;
+    border-radius: 5%;
+    padding-left: 1%;
+}
+
+#course-selection {
+    margin: 5% 0% 1%;
+}
+
+.radio-options {
+    margin-bottom: 2%;
+    font-size: 87%;
+}
+
+#textarea-label {
+    margin-top: 5%;
+}
+
+#comment {
+    margin-bottom: 2%;
+}
+
+#details-submit-button {
+    background-color: white;
+    color: #785A46;
+    border: 1px solid #785A46;
+    border-radius: 5%;
+    padding: 1%;    
+}
+
+#details-submit-button:hover {
+    background-color: #785A46;
+    color: white;
 }
 
 #form-img {
@@ -348,5 +391,45 @@ footer a:hover {
     width: 50%;
     position: relative;
     left: 50%;
+}
+
+#contact-details {
+    text-align: center;
+    font-size: 200%;
+    background-color: white;
+}
+
+#contact-details h4 {
+    text-align: center;
+    font-size: 150%;
+    color: #af6331;
+    background-color: rgb(255,232,209);
+    margin-bottom: 2%;
+    padding: 0.5%;
+}
+
+#contact-details-elements {
+    padding: 5% 0 10%;
+    color: #785A46;
+}
+
+#phone-details {
+    float: left;
+    position: relative;
+    left: 5%;
+}
+
+#email-details {
+    display: inline-block;
+}
+
+#address-details {
+    float: right;
+    position: relative;
+    right: 5%;
+}
+
+.detail-heading {
+    font-weight: 700;
 }
 

@@ -22,31 +22,39 @@
     <section id="contact-form">
 
         <div id="contact-form-elements">
-            <form method="POST" action="https://formdump.codeinstitute.net/">
+            <form id="contact-form-structure" method="POST" action="https://formdump.codeinstitute.net/">
 
                 <label class="form-element-block" for="fname">First Name</label>
-                <input class="form-element-block" type="text" id="fname" name="first_name" placeholder="John" required>
+                <input class="form-element-block input-text-element" type="text" id="fname" name="first_name" placeholder="John" required>
     
                 <label class="form-element-block" for="lname">Last Name</label>
-                <input class="form-element-block" type="text" id="lname" name="last_name" placeholder="Doe" required>
+                <input class="form-element-block input-text-element" type="text" id="lname" name="last_name" placeholder="Doe" required>
     
                 <label class="form-element-block" for="email">Email Address</label>
-                <input class="form-element-block" type="email" id="email" name="email_address" placeholder="johndoe@email.com" required>
+                <input class="form-element-block input-text-element" type="email" id="email" name="email_address" placeholder="johndoe@email.com" required>
     
-                <p class="form-element-block">Course you are inquiring about?</p>
-                <label for="apprentice">The Apprentice</label>
-                <input type="radio" id="apprentice" name="baking-course" value="apprentice" required>
+                <p id="course-selection" class="form-element-block">Course you are inquiring about?</p>
+                
+                <div class="radio-options">
+                    <label for="apprentice">The Apprentice</label>
+                    <input type="radio" id="apprentice" name="baking-course" value="apprentice" required>
+                </div>
+                
+                <div class="radio-options">
+                    <label for="baker">The Baker</label>
+                    <input type="radio" id="baker" name="baking-course" value="baker" required>
+                </div>
+                
+                <div class="radio-options">
+                    <label for="master-chef">The Master Chef</label>
+                    <input type="radio" id="master-chef" name="baking-course" value="master-chef" required>
+                </div>
+                
     
-                <label for="baker">The Baker</label>
-                <input type="radio" id="baker" name="baking-course" value="baker" required>
+                <label id="textarea-label" class="form-element-block" for="comment">Please leave any inquiries or comments below</label>
+                <textarea class="form-element-block input-text-element" name="user_comment" id="comment" cols="30" rows="10"></textarea>
     
-                <label for="master-chef">The Master Chef</label>
-                <input type="radio" id="master-chef" name="baking-course" value="master-chef" required>
-    
-                <label class="form-element-block" for="comment">Please leave any inquiries or comments below</label>
-                <textarea class="form-element-block" name="user_comment" id="comment" cols="30" rows="10"></textarea>
-    
-                <input class="form-element-block" type="submit" value="Submit Details">
+                <input id="details-submit-button" class="form-element-block" type="submit" value="Submit Details">
     
             </form>
         </div>
@@ -56,22 +64,26 @@
         
     </section>
 
-    <section>
+    <section id="contact-details">
         <h4>How to reach us</h4>
-        <div>
-            <p>Phone: </p>
-            <p>07 349 874 629 </p>
+
+        <div id="contact-details-elements">
+            <div id="phone-details">
+                <p class="detail-heading">Phone: </p>
+                <p>07 349 874 629 </p>
+            </div>
+            <div id="email-details">
+                <p class="detail-heading">Email: <p>
+                <p>email@breadbuddies.com<p>
+            </div>
+            <div id="address-details">
+                <p class="detail-heading">Address: </p>
+                <p>Bread Buddies</p>
+                <p>67 Drury Lane</p>
+                <p>London, WC2B 5SS</p>
+            </div>
         </div>
-        <div>
-            <p>Email: <p>
-            <p>email@breadbuddies.com<p>
-        </div>
-        <div>
-            <p>Address: </p>
-            <p>Bread Buddies</p>
-            <p>67 Drury Lane</p>
-            <p>London, WC2B 5SS</p>
-        </div> 
+         
     </section>
 
     <footer>
