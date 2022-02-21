@@ -152,7 +152,7 @@ h3 {
 
 #reasons-list {
     width: 33%;
-    padding: 100px 50px 0;
+    padding: 5%;
     display: inline-block;
 }
 
@@ -433,3 +433,30 @@ footer a:hover {
     font-weight: 700;
 }
 
+/* Media queries */
+
+/* For large screens size from 1700px wide and down */
+@media screen and (max-width: 1700px) {
+    .impact-text {
+        line-height: 35px;
+    }
+}
+
+/* For large screens size from 1450px wide and down */
+@media screen and (max-width: 1450px) {
+    .impact-text {
+        line-height: 27px;
+    }
+}
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #intro-outer {
+        height: auto;
+        text-align: center;
+    }
+    
+    #hero-image {
+        width: 100%;
+    }
+}
