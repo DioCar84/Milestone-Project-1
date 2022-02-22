@@ -435,100 +435,144 @@ footer a:hover {
 
 /* Media queries */
 
-/* For large screens size from 1700px wide and down */
-@media screen and (max-width: 1700px) {
-    .impact-text {
-        line-height: 35px;
+/* For small screens size from 320px wide and up */
+@media screen and (min-width: 320px) {
+    h1 {
+        width: 45%;
     }
-}
 
-/* For large screens size from 1450px wide and down */
-@media screen and (max-width: 1450px) {
-    .impact-text {
-        line-height: 27px;
+    nav {
+        width: 45%;
+        position: relative;
+        left: 10%;
     }
-}
 
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
     #intro-outer {
-        height: auto;
-        text-align: center;
+        overflow: hidden;
     }
-    
-    #hero-image {
+
+    #hero-image{
+        height: 400px;
         width: 100%;
     }
 
     #intro-inner {
-        width: 35%;
-        padding: 10% 0%;
-    }
-
-    #reasons-list {
-        font-size: 75%;
-    }
-}
-
-/* For medium screens size from 1080px wide and down */
-@media screen and (max-width: 1080px) { 
-    h3 {
-        margin-top: 3%;
+        width: 75%;
+        font-size: 170%;
+        padding: 7% 13%;
+        position: inherit;
     }
 
     .impact-row {
-        height: auto;
-        display: inline-block;
+        height: 800px;
         position: inherit;
     }
 
     .impact-left {
+        float: none;
         width: 100%;
     }
 
-    .impact-right {
-        width: 100%;
-    }
-
-    .impact-text {
-        line-height: 45px;
-    }
-
-    #reasons-list {
-        padding: 2% 5%;
-    }
-
-    #reasons-list-heading {
-        margin: 3%;
-    }
-}
-
-/* For medium screens size from 810px wide and down */
-@media screen and (max-width: 810px) { 
-    h1 {
-        font-size: 250%;
-        width: 45%;
-    }
-    
-    nav {
-        font-size: 80%;
-        width: auto;
-    }
-
-    .nav-link {
+    .impact-img {
         padding: 0;
     }
 
+    .impact-row {
+        height: auto;
+    }
+
     .impact-text {
+        height: auto;
+        width: 50%;
+        padding: 2%;
+        margin: 5% auto;
         line-height: 35px;
+        position: inherit;
+        float: none;
+    }
+
+    .impact-right {
+        float: none;
+        width: 100%;
+    }
+
+    #reasons-list {
+        width: 80%;
+        font-size: 70%;
+        padding: 0 6%;
+    }
+
+    #reasons-list-heading {
+        width: 90%;
     }
 
     #reasons-list-items {
-        line-height: 3.2rem;
+        line-height: 3rem;
+        left: 14%;
+    }
+
+    #baking-image {
+        width: 100%;
+        height: 400px;
+    }
+
+    #find-out-link {
+        margin: 5% 9%;
+        position: relative;
+        width: 50%;
+        display: block;
+        left: 8%;
     }
 }
 
-/* For medium screens size from 750px wide and down */
-@media screen and (max-width: 750px) {
-    
+/* For small screens size from 768px wide and up */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 250%;
+        margin: 1%;
+    }
+
+    nav {
+        position: inherit;
+    }
+
+    .nav-link {
+        float: left;
+        margin: 5% 3%;
+        font-size: 150%;
+        padding-left: 7%;
+        padding-right: 0;
+    }
+
+    .impact-text {
+        border-radius: 10%;
+        width: 30%
+    }
+
+    #top-left-text {
+        padding: 0;
+    }
+
+    #bottom-left-text {
+        padding-top: 0%;
+    }
+
+    #bottom-right-text {
+        padding-top: 0;
+    }
+
+    #reasons-list {
+        font-size: 90%;
+    }
+
+    #reasons-list-items {
+        position: relative;
+        left: 18%;
+    }
+
+    #find-out-button {
+        width: 100%;
+        position: relative;
+        left: 27%;
+    }
 }
