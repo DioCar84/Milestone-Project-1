@@ -459,4 +459,76 @@ footer a:hover {
     #hero-image {
         width: 100%;
     }
+
+    #intro-inner {
+        width: 35%;
+        padding: 10% 0%;
+    }
+
+    #reasons-list {
+        font-size: 75%;
+    }
+}
+
+/* For medium screens size from 1080px wide and down */
+@media screen and (max-width: 1080px) { 
+    h3 {
+        margin-top: 3%;
+    }
+
+    .impact-row {
+        height: auto;
+        display: inline-block;
+        position: inherit;
+    }
+
+    .impact-left {
+        width: 100%;
+    }
+
+    .impact-right {
+        width: 100%;
+    }
+
+    .impact-text {
+        line-height: 45px;
+    }
+
+    #reasons-list {
+        padding: 2% 5%;
+    }
+
+    #reasons-list-heading {
+        margin: 3%;
+    }
+}
+
+/* For medium screens size from 810px wide and down */
+@media screen and (max-width: 810px) { 
+    h1 {
+        font-size: 250%;
+        width: 45%;
+    }
+    
+    nav {
+        font-size: 80%;
+        width: auto;
+    }
+
+    .nav-link {
+        padding: 0;
+    }
+
+    .impact-text {
+        line-height: 35px;
+    }
+
+    #reasons-list-items {
+        line-height: 3.2rem;
+    }
+}
+
+/* For medium screens size from 750px wide and down */
+@media screen and (max-width: 750px) {
+    
 }
