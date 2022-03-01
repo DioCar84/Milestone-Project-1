@@ -581,6 +581,51 @@ footer a:hover {
         float: none;
         top: 35%;
     }
+
+    /* Contacts page */
+    #contact-form {
+        height: auto;
+    }
+
+    #contact-form-elements {
+        float: none;
+        padding: 0;
+    }
+
+    .form-element-block {
+        padding: 5% 0;
+    }
+
+    #details-submit-button {
+        font-size: 100%;
+        margin-top: 10%;
+    }
+
+    #form-img {
+        height: 400px;
+        width: 100%;
+        position: inherit;
+        margin-top: 10%
+    }
+
+    .detail-heading {
+        margin-top: 10%;
+    }
+
+    #contact-details {
+        position: inherit;
+        font-size: 130%;
+    }
+
+    #phone-details {
+        float: none;
+        position: inherit;
+    }
+
+    #address-details {
+        float: none;
+        position: inherit;
+    }
 }
 
 /* For medium screens size from 768px wide and up */
@@ -633,6 +678,8 @@ footer a:hover {
         position: relative;
         left: 27%;
     }
+
+    /* Courses page */
 
     #courses-header {
         position: inherit;
@@ -688,6 +735,40 @@ footer a:hover {
         background-position-x: 35%;
     }
 
+    /* Contacts page */
+    #contact-form {
+        height: 950px;
+    }
+
+    #contact-form-elements {
+        display: inline-block;
+        position: relative;
+        right: 5%;
+        width: 45%;
+        bottom: 20px
+    }
+
+    #form-img {
+        height: 950px;
+        width: 50%;
+        position: relative;
+        margin: 0;
+        display: inline-block;
+        left: 5%;
+    }
+
+    #contact-detail {
+        font-size: 200%;
+    }
+
+    #contact-details-elements {
+        padding: 0 0 10%;
+        font-size: 200%;
+    }
+
+    #email-details {
+        display: inherit;
+    }
 
 }
 
