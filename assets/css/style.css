@@ -440,6 +440,16 @@ footer a:hover {
 @media screen and (max-width: 1700px) {
 
     /* Home page */
+    .impact-left {
+        position: relative;
+        left: 30px;
+    }
+
+    .impact-text {
+        font-size: 125%;
+        line-height: 33px;
+        right: 30px;
+    }
 }
 
 /* For large to medium screens size from 1200px wide and down */
