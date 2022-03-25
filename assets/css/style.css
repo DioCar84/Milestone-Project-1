@@ -551,8 +551,41 @@ footer a:hover {
     }
 
     /* Courses page */
+    #courses-header {
+        padding: 6% 3% 0;
+    }
+
+    .courses-menu-links {
+        padding: 4%;
+    }
+
+    .course-features {
+        width: 35%;
+        margin-top: 15%;
+    }
+
+    .course-features-list {
+        bottom: 2rem;
+    }
+
+    #baker-course-features {
+        position: relative;
+        right: 5%;
+    }
 
     /* Contacts page */
+    #contact-form-elements {
+        width: 40%;
+    }
+
+    #contact-form-structure {
+        left: 5%;
+        margin-top: 10%;
+    }
+
+    #contact-details {
+        font-size: 170%;
+    }
 }
 
 /* For medium screens size from 768px wide and down */
