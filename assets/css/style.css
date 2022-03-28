@@ -592,10 +592,150 @@ footer a:hover {
 @media screen and (max-width: 768px) {
 
     /* Home page */
+    header {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 220%;
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+        float: none;
+    }
+
+    .nav-link {
+        font-size: 128%;
+        float: none;
+        left: 0%;
+        display: inline-block;
+    }
+
+    #intro-outer {
+        height: auto;
+    }
+
+    #hero-image {
+        height: 400px;
+        width: 100%;
+    }
+
+    #intro-inner {
+        width: 80%;
+        bottom: 0;
+        margin-bottom: 20%;
+    }
+
+    #impact {
+        margin-bottom: 10%;
+    }
+
+    .impact-left {
+        left: 10%;
+    }
+
+    .impact-right {
+        left: 10%;
+    }
+
+    .impact-img {
+        display: block;
+        padding: 12%;
+    }
+
+    .impact-text {
+        width: 250px;
+        left: 15%;
+        top: 0;
+        line-height: 2rem;
+        display: block;
+        float: left;
+    }
+
+    #reasons-list {
+        width: 80%;
+        margin: 5% 0;
+    }
+
+    #reasons-list-items {
+        font-size: 150%;
+        line-height: 2.5rem;
+    }
+    
+    #find-out-link {
+        width: 50%;
+        display: block;
+        margin: 10% 0 0 25%;
+        position: relative;
+    }
+
+    #baking-image {
+        width: 100%;
+        height: 400px;
+    }
 
     /* Courses page */
+    .courses-menu-links {
+        padding: 7%;
+    }
+
+    .course-features {
+        width: 80%;
+        margin-top: 5%;
+        font-size: 90%;
+    }
+
+    #course-img-1 {
+        height: 400px;
+        width: 100%;
+    }
+
+    #baker-course-features {
+        float: left;
+        right: 0;
+    }
+
+    #course-img-2 {
+        height: 400px;
+        width: 100%;
+    }
+
+    #course-img-3 {
+        height: 400px;
+        width: 100%;
+    }
 
     /* Contacts page */
+    #contact-form {
+        height: 1100px;
+    }
+
+    #contact-form-elements {
+        width: 100%;
+        margin-bottom: 50px;
+        float: none;
+    }
+
+    #form-img {
+        height: 400px;
+        width: 100%;
+        position: inherit;
+    }
+
+    #phone-details {
+        float: none;
+        position: inherit;
+        margin-bottom: 10%;
+    }
+
+    #address-details {
+        float: none;
+        position: inherit;
+        margin-top: 10%;
+    }
+
 }
 
 /* For small screens size from 320px wide and down */
