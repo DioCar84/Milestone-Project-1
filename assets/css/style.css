@@ -654,6 +654,10 @@ footer a:hover {
         float: left;
     }
 
+    #bread-buddies {
+        height: auto;
+    }
+
     #reasons-list {
         width: 80%;
         margin: 5% 0;
@@ -736,4 +740,66 @@ footer a:hover {
         margin-top: 10%;
     }
 
+}
+
+/* For small screens size from 320px wide and down */
+@media screen and (max-width: 320px) {
+    
+    /* Home page */
+    h1 {
+        width: 80%;
+    }
+
+    nav {
+        width: 50%;
+        position: relative;
+        left: 30%;
+    }
+
+    .impact-img {
+        height: 250px;
+        width: 250px;
+        position: relative;
+        left: 2%;
+    }
+
+    .impact-text {
+        width: 200px;
+        left: 20%;
+    }
+
+    #reasons-list {
+        width: 70%;
+    }
+
+    footer {
+        font-size: 150%;
+    }
+
+    /* Courses page */
+    #apprentice {
+        height: auto;
+    }
+
+    #baker {
+        height: auto;
+    }
+
+    #master-chef {
+        height: auto;
+    }
+
+    /* Contacts page */
+    #contact-form {
+        height: auto;
+    }
+
+    #contact-form-elements {
+        width: 80%;
+        font-size: 90%;
+    }
+
+    #comment {
+        width: 90%;
+    }
 }
